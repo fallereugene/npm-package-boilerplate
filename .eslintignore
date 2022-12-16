@@ -1,8 +1,9 @@
 node_modules
-lib
-.eslintrc.js
-*.md
 dist
+build
 jest.config.js
-*.txt
+.eslintrc.js
 *.html
+*.json
+*.txt
+*.md

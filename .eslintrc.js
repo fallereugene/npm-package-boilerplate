@@ -10,6 +10,8 @@ module.exports = {
     },
     extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended', 'prettier'],
     parserOptions: {
+        project: path.resolve(__dirname, './tsconfig.json'),
+        tsconfigRootDir: __dirname,
         ecmaVersion: 'latest',
         sourceType: 'module',
     },
